@@ -1,0 +1,1050 @@
+
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a história, os títulos, os ídolos e a tradição do Santos Futebol Clube.">
+  <title>Santos  | Paixão, Glória e Tradição</title>
+  <style>
+    :root {
+      --black: #090909;
+      --ink: #171717;
+      --white: #fff;
+      --paper: #f4f4f2;
+      --muted: #b8b8b8;
+      --line: #dededb;
+      --accent: #d7d7d7;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+
+
+
+	
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 82px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.75;
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    h1, h2, h3, p {
+      margin-top: 0;
+    }
+
+    h1, h2, h3 {
+      font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      letter-spacing: -0.035em;
+      line-height: 1.12;
+    }
+
+    h1 {
+      font-weight: 850;
+    }
+
+    h2 {
+      font-weight: 800;
+    }
+
+    h3 {
+      font-weight: 750;
+    }
+
+    p {
+      max-width: 72ch;
+    }
+
+    .hero p,
+    .section-heading p,
+    .callout p {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-heading {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 34px;
+    }
+
+    .story-card p,
+    .gallery-copy p {
+      line-height: 1.75;
+    }
+
+    .story-card p {
+      text-align: left;
+    }
+
+    .gallery-copy {
+      text-align: left;
+    }
+
+    .kicker {
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-size: .76rem;
+      font-weight: 800;
+    }
+
+    /* CABEÇALHO PRINCIPAL */
+
+    .hero {
+      min-height: 330px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      color: white;
+      padding: 58px 22px;
+      background-image:
+        linear-gradient(110deg, rgba(0,0,0,.86), rgba(0,0,0,.46)),
+        url("neymar-vai-estrear-com-o-botafogo-sp-114939.png");
+      background-position: center 35%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .hero-inner {
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      border: 1px solid rgba(255,255,255,.55);
+      border-radius: 999px;
+      padding: 5px 13px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-size: .72rem;
+      font-weight: 700;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.1rem, 5vw, 4.25rem);
+      line-height: 1.06;
+      margin: 18px 0 14px;
+      letter-spacing: -.04em;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto;
+      color: #eeeeee;
+      font-size: clamp(1rem, 2vw, 1.15rem);
+    }
+
+    /* MENU DE NAVEGAÇÃO */
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(8,8,8,.97);
+      color: white;
+      box-shadow: 0 5px 22px rgba(0,0,0,.18);
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      margin: auto;
+      min-height: 66px;
+      padding: 8px 22px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand {
+      flex-shrink: 0;
+      color: white;
+      font-weight: 900;
+      letter-spacing: .06em;
+      text-decoration: none;
+      margin-right: 12px;
+    }
+
+    .brand span {
+      display: inline-block;
+      border: 2px solid white;
+      padding: 3px 6px;
+      margin-right: 7px;
+      font-size: .8rem;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #ededed;
+      font-size: .91rem;
+      font-weight: 700;
+      padding: 10px 12px;
+      border-radius: 6px;
+      transition: background .2s, color .2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      background: white;
+      color: black;
+    }
+
+    /* CAMPO DE PESQUISA */
+
+    .search {
+      display: flex;
+      gap: 7px;
+      margin-left: auto;
+      min-width: 250px;
+    }
+
+    .search input {
+      min-width: 0;
+      width: 100%;
+      border: 1px solid #6b6b6b;
+      border-radius: 6px;
+      background: #202020;
+      color: white;
+      padding: 10px 11px;
+      font-size: .9rem;
+    }
+
+    .search input::placeholder {
+      color: #c4c4c4;
+    }
+
+    .search button {
+      border: 0;
+      border-radius: 6px;
+      background: white;
+      color: #111;
+      padding: 10px 14px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background .2s;
+    }
+
+    .search button:hover {
+      background: #dcdcdc;
+    }
+
+    /* LAYOUT E TEXTOS */
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 22px;
+    }
+
+    .kicker {
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      font-size: .75rem;
+      font-weight: 800;
+    }
+
+    h2 {
+      line-height: 1.2;
+      letter-spacing: -.025em;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 35px;
+      align-items: center;
+      padding-top: 60px;
+      padding-bottom: 42px;
+    }
+
+    .intro h2 {
+      font-size: clamp(1.8rem, 3vw, 2.7rem);
+      margin: 10px 0 16px;
+    }
+
+    .intro p {
+      color: #4b4b4b;
+      margin: 0 0 12px;
+    }
+
+    .intro-visual {
+      min-height: 300px;
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+      background: #222;
+    }
+
+    .intro-visual img {
+      width: 100%;
+      height: 100%;
+      min-height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .photo-label {
+      position: absolute;
+      bottom: 14px;
+      left: 14px;
+      right: 14px;
+      color: white;
+      font-size: .85rem;
+      background: rgba(0,0,0,.68);
+      border-radius: 8px;
+      padding: 10px 13px;
+    }
+
+    /* INFORMAÇÕES RÁPIDAS */
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 12px;
+      padding: 0 0 52px;
+    }
+
+    .fact {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .fact strong {
+      display: block;
+      font-size: 1.45rem;
+      line-height: 1.3;
+    }
+
+    .fact span {
+      color: #626262;
+      font-size: .9rem;
+    }
+
+    /* SEÇÕES */
+
+    .section {
+      padding: 58px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin: 0 auto 28px;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      font-size: clamp(1.7rem, 3vw, 2.5rem);
+      margin: 8px 0 10px;
+    }
+
+    .section-heading p {
+      color: #555;
+      margin: 0 auto;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    /* CARTÕES DE CONTEÚDO */
+
+    .story-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 25px;
+    }
+
+    .story-card h3 {
+      margin-top: 0;
+      font-size: 1.25rem;
+    }
+
+    .story-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* LINHA DO TEMPO */
+
+    .timeline {
+      border-left: 2px solid #bdbdbd;
+      padding-left: 22px;
+      margin-left: 8px;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding: 0 0 22px;
+    }
+
+    .timeline-item::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #111;
+      position: absolute;
+      left: -28px;
+      top: 8px;
+    }
+
+    .timeline-item strong {
+      display: block;
+      font-size: 1.05rem;
+    }
+
+    .timeline-item p {
+      margin: 5px 0 0;
+      color: #555;
+    }
+
+    /* LISTA DE TÍTULOS */
+
+    .title-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .title-list li {
+      padding: 15px 17px;
+      border-radius: 8px;
+      background: white;
+      border: 1px solid var(--line);
+    }
+
+    .title-list strong {
+      display: block;
+    }
+
+    .title-list span {
+      font-size: .9rem;
+      color: #626262;
+    }
+
+    /* DESTAQUE DO PELÉ */
+
+    .feature-banner {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      background: #111;
+      color: white;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .feature-banner img {
+      width: 100%;
+      height: 100%;
+      min-height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .feature-copy {
+      padding: clamp(24px, 4vw, 42px);
+      align-self: center;
+    }
+
+    .feature-copy h2 {
+      margin: 8px 0 14px;
+      font-size: clamp(1.7rem, 3vw, 2.5rem);
+    }
+
+    .feature-copy p {
+      color: #e0e0e0;
+    }
+
+    .feature-copy .kicker {
+      color: #bdbdbd;
+    }
+
+    /* GALERIA */
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .gallery-card {
+      overflow: hidden;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .gallery-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0,0,0,.09);
+    }
+
+    .gallery-card img {
+      display: block;
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      background: #ddd;
+    }
+
+    .gallery-copy {
+      padding: 18px 20px;
+      text-align: left;
+    }
+
+    .gallery-copy h3 {
+      margin: 0 0 6px;
+    }
+
+    .gallery-copy p {
+      margin: 0;
+      color: #555;
+      font-size: .94rem;
+    }
+
+    /* CHAMADA FINAL */
+
+    .callout {
+      margin: 8px 0 58px;
+      background: #e7e7e4;
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+    }
+
+    .callout h2 {
+      margin-top: 0;
+    }
+
+    .callout p {
+      color: #454545;
+    }
+
+    /* RODAPÉ */
+
+    footer {
+      background: #090909;
+      color: #eee;
+      padding: 30px 22px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 4px auto;
+      color: #c7c7c7;
+      font-size: .9rem;
+    }
+
+    .search-result {
+      outline: 3px solid #777;
+      outline-offset: 4px;
+      border-radius: 4px;
+    }
+
+    /* AJUSTES PARA TABLETS */
+
+    @media (max-width: 850px) {
+      .nav-inner {
+        flex-wrap: wrap;
+        padding: 10px 16px;
+      }
+
+      .brand {
+        margin-right: auto;
+      }
+
+      .nav-links {
+        order: 3;
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      .nav-links a {
+        white-space: nowrap;
+      }
+
+      .search {
+        min-width: 220px;
+      }
+
+      .intro,
+      .feature-banner {
+        grid-template-columns: 1fr;
+      }
+
+      .feature-banner img {
+        max-height: 320px;
+      }
+    }
+
+
+    @media (max-width: 560px) {
+      .hero {
+        min-height: 290px;
+        padding: 44px 18px;
+      }
+
+      .nav-inner {
+        gap: 8px;
+      }
+
+      .brand {
+        width: 100%;
+      }
+
+      .search {
+        width: 100%;
+        min-width: 0;
+        order: 2;
+      }
+
+      .nav-links {
+        order: 3;
+      }
+
+      .wrap {
+        padding: 0 16px;
+      }
+
+      .intro {
+        padding-top: 38px;
+        gap: 22px;
+      }
+
+      .quick-facts {
+        grid-template-columns: 1fr;
+      }
+
+      .two-col,
+      .title-list,
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-card img {
+        height: 210px;
+      }
+
+      .section {
+        padding: 42px 0;
+      }
+
+      .story-card {
+        padding: 21px;
+      }
+
+      .callout {
+        padding: 23px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero" id="inicio">
+    <div class="hero-inner">
+      <span class="eyebrow">Desde 1912 · Santos, Brasil</span>
+      <h1>Santos FC: Paixão, Glória e Tradição</h1>
+      <p>Uma história alvinegra feita de craques, conquistas inesquecíveis e uma torcida que leva o Peixe no coração.</p>
+    </div>
+  </header>
+
+  <nav class="navbar" aria-label="Navegação principal">
+    <div class="nav-inner">
+      <a class="brand" href="#inicio"><span>SFC</span>SANTOS FC</a>
+
+      <div class="nav-links">
+        <a href="#historia">História</a>
+		  <a href="#pele">Pelé</a>
+        <a href="#titulos">Títulos</a>
+        <a href="#neymar">Neymar</a>
+        <a href="#vila">Vila Belmiro</a>
+      </div>
+
+      <form class="search" id="formPesquisa" role="search">
+        <input
+          type="search"
+          id="campoPesquisa"
+          placeholder="Pesquisar no site..."
+          aria-label="Pesquisar no site"
+        >
+        <button type="submit">BUSCAR</button>
+      </form>
+    </div>
+  </nav>
+
+  <main>
+    <section class="wrap intro" id="historia">
+      <div>
+        <span class="kicker">Muito além do futebol</span>
+        <h2>Um clube que levou o nome de Santos para o mundo</h2>
+        <p>Fundado em 14 de abril de 1912, o Santos Futebol Clube construiu uma trajetória reconhecida pelo talento, pelo futebol ofensivo e pela capacidade de revelar grandes jogadores.</p>
+        <p>O preto e o branco representam uma tradição que atravessa gerações. Para a torcida santista, o Peixe é memória, identidade e paixão — dentro e fora de campo.</p>
+      </div>
+
+
+      <div class="intro-visual">
+        <img
+          src="Asset-2.jpg"
+          alt="Imagem relacionada ao Santos Futebol Clube"
+          loading="lazy"
+        >
+
+		
+        <div class="photo-label">Santos FC — tradição alvinegra desde 1912</div>
+      </div>
+    </section>
+
+    <section class="wrap quick-facts" aria-label="Destaques do clube">
+      <div class="fact">
+        <strong>1912</strong>
+        <span>Ano de fundação</span>
+      </div>
+<div align="left">		  
+<a href="historia.html" class="botao-pele">
+  Conheça mais a história do Santos FC →
+</a>
+</div>
+      <div class="fact">
+        <strong>Vila Belmiro</strong>
+        <span>A casa histórica do Peixe</span>
+      </div>
+
+      <div class="fact">
+        <strong>Alvinegro</strong>
+        <span>As cores que identificam o clube</span>
+      </div>
+    </section>
+
+    <section class="section" id="origens">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="kicker">As raízes</span>
+          <h2>De clube da cidade a referência mundial</h2>
+          <p>O Santos cresceu junto com o futebol brasileiro e criou uma identidade própria, marcada pela técnica e por equipes que encantaram diferentes gerações.</p>
+        </div>
+
+        <div class="two-col">
+          <article class="story-card">
+            <h3>⚓ A origem de um gigante</h3>
+            <p>No início do século XX, apaixonados por futebol fundaram um clube para representar a cidade portuária de Santos. A equipe começou sua trajetória em competições regionais e, com o tempo, passou a disputar os principais títulos do país.</p>
+            <p>Mesmo vindo do litoral paulista, o Peixe mostrou que podia enfrentar os maiores adversários e conquistar admiradores em vários continentes.</p>
+          </article>
+
+          <article class="story-card">
+            <h3>⚽ Uma identidade ofensiva</h3>
+            <p>Ao longo de sua história, o Santos ficou associado à criatividade, à habilidade individual e ao futebol de ataque. Essa tradição ajudou a transformar o clube em um dos nomes mais conhecidos do esporte brasileiro.</p>
+            <p>As gerações mudam, mas a expectativa de ver novos talentos surgindo com a camisa alvinegra permanece.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pele">
+      <div class="wrap">
+        <div class="feature-banner">
+          <img
+            src="Pelé_Mar_del_Plata_1965.PNG"
+            alt="Imagem histórica associada à trajetória do Santos"
+            loading="lazy"
+          >
+
+          <div class="feature-copy">
+            <span class="kicker">O Rei do Futebol</span>
+            <h2>Pelé e a era que encantou o mundo</h2>
+            <p>Edson Arantes do Nascimento, o Pelé, chegou ao Santos ainda jovem e tornou-se o maior símbolo de uma das épocas mais extraordinárias do clube. Seu talento, visão de jogo e capacidade de marcar gols ajudaram o Peixe a conquistar admiradores pelo planeta.</p>
+            <p>Com craques como Pepe, Coutinho, Zito, Mengálvio e Dorval, o Santos conquistou a Libertadores e a Copa Intercontinental em 1962 e 1963, marcando para sempre a história do futebol.</p>
+
+
+
+<a href="pelelll.html" class="botao-pele">
+  Conheça mais a história do Pelé →
+</a>
+
+<style>
+.botao-pele {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 15px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.botao-pele:hover {
+  background: #444;
+  transform: translateY(-3px);
+}
+</style>
+
+
+		
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+
+    <section class="section" id="titulos">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="kicker">Conquistas inesquecíveis</span>
+          <h2>Títulos que fazem parte da história</h2>
+          <p>Algumas das campanhas mais lembradas pelos santistas ajudaram a consolidar a presença do clube no cenário nacional e internacional.</p>
+        </div>
+
+        <ul class="title-list">
+          <li>
+            <strong>🏆 Copa Libertadores</strong>
+            <span>1962, 1963 e 2011</span>
+          </li>
+
+          <li>
+            <strong>🌎 Copa Intercontinental</strong>
+            <span>1962 e 1963</span>
+          </li>
+
+          <li>
+            <strong>🇧🇷 Campeonato Brasileiro</strong>
+            <span>Entre as campanhas históricas estão 1961–1965, 1968, 2002 e 2004</span>
+          </li>
+
+          <li>
+            <strong>🏅 Copa do Brasil</strong>
+            <span>2010</span>
+          </li>
+
+          <li>
+            <strong>⚽ Campeonato Paulista</strong>
+            <span>Diversos títulos ao longo de sua trajetória</span>
+          </li>
+
+          <li>
+            <strong>⭐ Libertadores de 2011</strong>
+            <span>Uma geração talentosa recolocou o Peixe no topo da América</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="neymar">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="kicker">Uma nova geração</span>
+          <h2>Neymar e o brilho dos Meninos da Vila</h2>
+          <p>No fim dos anos 2000 e início dos anos 2010, uma nova geração voltou a colocar o Santos em destaque no futebol mundial.</p>
+        </div>
+
+        <div class="two-col">
+          <article class="story-card">
+            <h3>Dribles, criatividade e personalidade</h3>
+            <p>Neymar chamou a atenção ainda adolescente por sua habilidade, improviso e capacidade de decidir partidas. Ao lado de Paulo Henrique Ganso e outros talentos, ajudou a formar uma equipe envolvente e ofensiva.</p>
+          </article>
+
+          <article class="story-card">
+            <h3>A conquista de 2011</h3>
+            <p>Depois da Copa do Brasil de 2010, o Santos conquistou a Libertadores de 2011, vencendo o Peñarol na final. A campanha tornou-se um dos capítulos mais marcantes para uma nova geração de torcedores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+	  
+<center> <a href="neymar.html" class="botao-neymar">
+  Conheça a história do Neymar →
+</a>
+
+<style>
+.botao-neymar {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 15px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.botao-neymar:hover {
+  background: #444;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+</style></center>
+
+
+    <section class="section" id="vila">
+      <div class="wrap">
+        <div class="two-col">
+          <div>
+            <span class="kicker">A casa do Peixe</span>
+            <h2>Vila Belmiro: onde a história ganha vida</h2>
+            <p>O Estádio Urbano Caldeira, conhecido como Vila Belmiro, foi inaugurado em 1916 e tornou-se um dos lugares mais emblemáticos do futebol brasileiro. Ali, gerações de jogadores vestiram a camisa santista e a torcida celebrou partidas e conquistas inesquecíveis.</p>
+            <p>A proximidade entre o campo e as arquibancadas cria uma atmosfera especial e mantém viva a ligação entre o clube, a cidade e seus torcedores.</p>
+          </div>
+			 <img
+            src="Foto-tu.drone-2.jpeg" width="100%" height="100%"
+            alt="Imagem histórica associada à trajetória do Santos"
+            loading="lazy"
+          >
+
+          <div class="story-card">
+            <h3>🐟 Por que “Peixe”?</h3>
+            <p>O apelido tem uma ligação natural com Santos, cidade litorânea historicamente conectada ao mar e ao porto. Com o tempo, a alcunha passou a ser motivo de orgulho e tornou-se parte da identidade alvinegra.</p>
+				 <img
+            src="baleia.webp" width="100%" height="75%"
+            alt="Imagem histórica associada à trajetória do Santos"
+            loading="lazy"
+          >
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+ <img
+            src="404409_widelg.jpg" width="100%" height="75%"
+            alt="Imagem histórica associada à trajetória do Santos"
+            loading="lazy"
+          
+<<center> <h3>"Santos é o encontro perfeito entre a grandiosidade do mar, a história que navega em seu porto, a poesia do maior jardim de praia do mundo e a magia do futebol que o Rei Pelé eternizou para sempre.</h3>"</center>
+
+	  
+
+    <section class="section" id="destaques">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="kicker">Explore mais</span>
+          <h2>Notícias e momentos do Peixe</h2>
+          <p>Confira mais sobre o Peixe, seus jogos e os jogadores que marcaram sua história.</p>
+        </div>
+
+        <div class="gallery">
+          <a class="gallery-card" href="vitoria.html">
+            <img
+              src="santos-v-cruzeiro-brasileirao-2026-2-1024x683-1-1024x683.webp"
+              alt="Partida do Santos"
+              loading="lazy"
+            >
+            <div class="gallery-copy">
+              <h3>Última vitória do Santos FC</h3>
+              <p>Confira os detalhes da partida.</p>
+            </div>
+          </a>
+
+          <a class="gallery-card" href="neymar2.html">
+            <img
+              src="images.jpeg"
+              alt="Neymar em destaque"
+              loading="lazy"
+            >
+            <div class="gallery-copy">
+              <h3>Neymar e o Santos</h3>
+              <p>Neymar anima Santos e mira temporada com mais jogos</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap callout">
+      <span class="kicker">Sempre Santos</span>
+      <h2>Uma história que continua sendo escrita</h2>
+      <p>De Pelé aos novos talentos, o Santos segue ligado à paixão pelo futebol e à esperança de ver mais uma geração brilhar com a camisa alvinegra.</p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>SANTOS</strong>
+    <p>História, ídolos e paixão pelo Santos Futebol Clube.</p>
+    <p>Site de fã, não oficial.</p>
+  </footer>
+
+  <script>
+    const formPesquisa = document.getElementById('formPesquisa');
+    const campoPesquisa = document.getElementById('campoPesquisa');
+    let ultimoResultado = null;
+
+    formPesquisa.addEventListener('submit', function (evento) {
+      evento.preventDefault();
+
+      const termo = campoPesquisa.value.trim().toLocaleLowerCase('pt-BR');
+
+      if (!termo) {
+        campoPesquisa.focus();
+        return;
+      }
+
+      if (ultimoResultado) {
+        ultimoResultado.classList.remove('search-result');
+        ultimoResultado = null;
+      }
+
+      const candidatos = document.querySelectorAll(
+        'main h2, main h3, main p, main li'
+      );
+
+      const resultado = Array.from(candidatos).find((elemento) =>
+        elemento.textContent.toLocaleLowerCase('pt-BR').includes(termo)
+      );
+
+      if (resultado) {
+        ultimoResultado = resultado;
+        resultado.classList.add('search-result');
+        resultado.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+      } else {
+        alert('Nenhum resultado encontrado para: ' + campoPesquisa.value.trim());
+      }
+    });
+
+    campoPesquisa.addEventListener('input', function () {
+      if (ultimoResultado) {
+        ultimoResultado.classList.remove('search-result');
+        ultimoResultado = null;
+      }
+    });
+  </script>
+</body>
+</html>

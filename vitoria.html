@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Última Vitória do Santos</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #050505;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+header h2 {
+    letter-spacing: 2px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header a:hover {
+    color: #aaa;
+}
+
+.hero {
+    min-height: 440px;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0009, #000d),
+    url("https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p {
+    color: #ddd;
+    letter-spacing: 4px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 15px;
+}
+
+.placar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 25px;
+}
+
+.time {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.gols {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.resumo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+}
+
+.resumo img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.texto p {
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.estatisticas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #202020;
+    padding: 25px 15px;
+    text-align: center;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #bbb;
+}
+
+.botao {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 13px 22px;
+    margin-top: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #ccc;
+}
+
+footer {
+    background: #050505;
+    text-align: center;
+    padding: 25px;
+    color: #aaa;
+    margin-top: 30px;
+}
+.video-partida {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.video-partida h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.video-partida p {
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+.video-partida video {
+    width: 100%;
+    max-width: 850px;
+    border-radius: 12px;
+    border: 2px solid #444;
+    box-shadow: 0 5px 25px #000;
+}
+	
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    header a {
+        margin: 8px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .placar {
+        gap: 15px;
+    }
+
+    .time img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .gols {
+        font-size: 45px;
+    }
+
+    .resumo {
+        grid-template-columns: 1fr;
+    }
+
+    .estatisticas {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>SANTOS FC</h2>
+
+    <nav>
+        
+        <a href="#partida">Partida</a>
+        <a href="#numeros">Estatísticas</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <p>PAIXÃO QUE NÃO TEM FIM</p>
+    <h1>ÚLTIMA VITÓRIA</h1>
+
+    <div class="placar">
+        <div class="time">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Santos_Logo.png"
+            alt="Escudo do Santos">
+            <p>SANTOS</p>
+        </div>
+
+        <div class="gols">2 × 1</div>
+
+        <div class="time">
+            <img src="images__4_-removebg-preview.png">
+           
+            <p>FLUMINENSE</p>
+        </div>
+    </div>
+
+    <p>ORGULHO ALVINEGRO</p>
+</section>
+
+<main>
+
+    <section id="partida">
+        <h2>Uma vitória para a história</h2>
+
+        <div class="resumo">
+            <img
+            src="jogo1.jpeg"
+            alt="Estádio de futebol">
+
+            <div class="texto">
+                <h2>Santos vence o Fluminense</h2>
+
+                <p>
+                    O Santos conquistou uma vitória importante contra
+                    o Fluminense, levando alegria à torcida e mostrando
+                    a força da camisa alvinegra.
+                </p>
+
+                <p>
+                    A partida foi marcada pela emoção, pela disputa
+                    dentro de campo e pelo apoio dos torcedores.
+                    Uma vitória que merece ser lembrada!
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="numeros" style="margin-top: 45px;">
+        <h2>Resumo da partida</h2>
+
+        <div class="estatisticas">
+            <div class="card">
+                <h3>2</h3>
+                <p>Gols do Santos</p>
+            </div>
+
+            <div class="card">
+                <h3>1</h3>
+                <p>Gol do adversário</p>
+            </div>
+
+            <div class="card">
+                <h3>3</h3>
+                <p>Gols na partida</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+  
+
+    <section id="numeros" style="margin-top: 45px;">
+    </section>
+    <section class="video-partida">
+
+        <h2>MELHORES MOMENTOS DA PARTIDA</h2>
+
+        <p>Reviva os principais momentos da vitória do Peixe!</p>
+
+        <video controls>
+            <source src="YTDown.com_YouTube_Media_vjGokAm3BlA_FLUMINENSE-1-X-2-SANTOS-MELHORES-MOMENTOS-BRASILEIRÃO-2026_001_1080p.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+
+    </section>
+	
+	<center> <a class="botao" href="index.html">Voltar ao início</a></center>
+<footer>
+    <p>SANTOS FC — Nossa história, nossa paixão.</p>
+</footer>
+
+</body>
+</html>

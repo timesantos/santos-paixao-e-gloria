@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>História do Santos FC</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #050505;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+}
+
+header h2 {
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #aaa;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(#0009, #000e),
+    url("photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p {
+    letter-spacing: 5px;
+    color: #ddd;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin: 20px 0;
+}
+
+.hero a, .botao {
+    display: inline-block;
+    padding: 13px 24px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 65px;
+    scroll-margin-top: 20px;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-left: 5px solid white;
+    padding-left: 15px;
+}
+
+p {
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.intro img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.linha {
+    border-left: 2px solid #777;
+    padding-left: 25px;
+    margin-left: 10px;
+}
+
+.evento {
+    background: #1c1c1c;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.evento h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.ano {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.destaques {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: white;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.final {
+    background: #202020;
+    text-align: center;
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #050505;
+    text-align: center;
+    padding: 25px;
+    color: #aaa;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 7px;
+        display: inline-block;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .intro, .destaques {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>SANTOS FC</h2>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="#fundacao">Fundação</a>
+        <a href="#historia">História</a>
+        <a href="#idolos">Ídolos</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <p>DESDE 1912</p>
+    <h1>A HISTÓRIA DO PEIXE</h1>
+    <p>Uma camisa, milhões de histórias e uma paixão eterna.</p>
+    <a href="#fundacao">CONHEÇA NOSSA HISTÓRIA</a>
+</div>
+
+<main>
+
+<section id="fundacao">
+    <h2 class="titulo">O nascimento de uma paixão</h2>
+
+    <div class="intro">
+        <div>
+            <p>
+                O Santos Futebol Clube nasceu em 14 de abril de 1912,
+                na cidade de Santos, no litoral paulista. O clube foi
+                fundado por Francisco Raymundo Marques, Mário Ferraz
+                de Campos e Argemiro de Souza Júnior.
+            </p>
+
+            <br>
+
+            <p>
+                Inicialmente, o uniforme tinha as cores azul, branco
+                e dourado. Em 1913, o Santos adotou o tradicional
+                uniforme branco e preto que se tornou conhecido
+                no futebol brasileiro e mundial.
+            </p>
+
+            <br>
+
+            <p>
+                Desde os primeiros anos, o clube começou a construir
+                sua identidade, conquistando títulos e formando
+                equipes que marcaram época.
+            </p>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1000&q=80"
+        alt="Campo de futebol">
+    </div>
+</section>
+
+<section id="historia">
+    <h2 class="titulo">Uma história de grandes momentos</h2>
+
+    <div class="linha">
+
+        <div class="evento">
+            <div class="ano">1912 — Fundação</div>
+            <h3>O começo de tudo</h3>
+            <p>
+                O Santos é fundado e inicia sua trajetória no futebol.
+                Nascia um clube que levaria o nome da cidade para
+                diferentes partes do mundo.
+            </p>
+        </div>
+
+        <div class="evento">
+            <div class="ano">1935 — Primeiro Paulista</div>
+            <h3>A primeira grande conquista</h3>
+            <p>
+                O Peixe conquista seu primeiro Campeonato Paulista,
+                um marco importante para o crescimento do clube.
+            </p>
+        </div>
+
+        <div class="evento">
+            <div class="ano">1956 — A chegada de Pelé</div>
+            <h3>O início de uma era inesquecível</h3>
+            <p>
+                Um jovem chamado Pelé chega ao Santos. Com seu talento,
+                ele ajudaria a transformar o clube em uma referência
+                mundial do futebol.
+            </p>
+        </div>
+
+        <div class="evento">
+            <div class="ano">1962 e 1963 — O mundo é alvinegro</div>
+            <h3>Conquistas internacionais</h3>
+            <p>
+                Liderado por Pelé e acompanhado de craques como Pepe,
+                Coutinho e Zito, o Santos conquista a Libertadores
+                e o Mundial Interclubes em dois anos consecutivos.
+            </p>
+        </div>
+
+        <div class="evento">
+            <div class="ano">2002 e 2004 — Novas conquistas</div>
+            <h3>O Santos volta ao topo</h3>
+            <p>
+                O clube conquista os Campeonatos Brasileiros de 2002
+                e 2004, revelando uma nova geração de talentos.
+            </p>
+        </div>
+
+        <div class="evento">
+            <div class="ano">2010 e 2011 — A geração Neymar</div>
+            <h3>Os Meninos da Vila encantam o Brasil</h3>
+            <p>
+                Com Neymar, Paulo Henrique Ganso e outros jovens
+                talentos, o Santos conquista a Copa do Brasil de 2010
+                e a Libertadores de 2011.
+            </p>
+        </div>
+
+        <div class="evento">
+            <div class="ano">2023 e 2024 — Um novo capítulo</div>
+            <h3>Queda, reação e retorno</h3>
+            <p>
+                Em 2023, o Santos foi rebaixado pela primeira vez
+                no Campeonato Brasileiro. Em 2024, conquistou
+                a Série B e garantiu seu retorno à elite nacional.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="idolos">
+    <h2 class="titulo">Ídolos que fizeram história</h2>
+
+    <div class="destaques">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=80"
+            alt="Campo de futebol">
+            <h3>Pelé</h3>
+            <p>
+                O Rei do Futebol foi o maior símbolo da era dourada
+                santista e ajudou a levar o nome do clube ao mundo.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=700&q=80"
+            alt="Bola de futebol no gramado">
+            <h3>Neymar</h3>
+            <p>
+                Revelado pelo Santos, encantou torcedores com seus
+                dribles e liderou a equipe na conquista da Libertadores
+                de 2011.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=700&q=80"
+            alt="Estádio de futebol">
+            <h3>Vila Belmiro</h3>
+            <p>
+                Inaugurado em 1916, o estádio é um dos maiores símbolos
+                da história santista e palco de momentos inesquecíveis.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="titulo">Um clube de tradição mundial</h2>
+
+    <div class="intro">
+        <div>
+            <p>
+                A história do Santos não é feita apenas de taças.
+                O clube também ficou conhecido por revelar jogadores,
+                praticar um futebol ofensivo e conquistar torcedores
+                muito além da cidade de Santos.
+            </p>
+
+            <br>
+
+            <p>
+                Sua trajetória reúne gerações de craques, grandes
+                conquistas, momentos difíceis e a força de uma torcida
+                que mantém viva a paixão pelo Alvinegro Praiano.
+            </p>
+        </div>
+
+        <div class="final">
+            <h2>Mais que um clube</h2>
+            <p>
+                Uma história construída por jogadores, torcedores
+                e gerações que carregam o orgulho de vestir
+                a camisa do Santos.
+            </p>
+
+            <a class="botao" href="index.html">VOLTAR AO INÍCIO</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>SANTOS FUTEBOL CLUBE</p>
+    <p>Uma história que atravessa gerações — desde 1912.</p>
+</footer>
+
+</body>
+</html>

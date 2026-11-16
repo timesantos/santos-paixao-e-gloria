@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Neymar Jr. | Santos Remix</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #080808;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+header {
+    background: #000;
+    padding: 22px 8%;
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #aaa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #aaa;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+    background:
+        linear-gradient(90deg, #000 5%, rgba(0,0,0,0.75) 55%, rgba(0,0,0,0.35)),
+        url("neymar-vai-estrear-com-o-botafogo-sp-114939.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 7vw, 76px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero h1 span {
+    color: #bbb;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 28px;
+}
+
+.botao {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 13px 23px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #bbb;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 65px 10%;
+}
+
+.titulo {
+    font-size: 32px;
+    margin-bottom: 25px;
+    border-left: 5px solid white;
+    padding-left: 15px;
+}
+
+section p {
+    color: #ccc;
+    font-size: 17px;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+.historia {
+    background: #101010;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #171717;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #888;
+}
+
+.card h3 {
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+}
+
+.destaque {
+    background: #111;
+    text-align: center;
+}
+
+.destaque .titulo {
+    display: inline-block;
+    text-align: left;
+}
+
+.destaque p {
+    max-width: 850px;
+    margin: 0 auto 18px;
+}
+
+footer {
+    background: #000;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 28px 15px;
+    color: #999;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #777;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    background: white;
+    color: black;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .hero {
+        padding: 55px 7%;
+        min-height: 420px;
+    }
+
+    section {
+        padding: 45px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SANTOS <span>REMIX</span></div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="#historia">História</a>
+        <a href="#santos">No Santos</a>
+        <a href="#titulos">Títulos</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Neymar <span>Jr.</span></h1>
+
+            <p>
+                O talento que encantou o Brasil, conquistou a torcida
+                santista e marcou uma geração do futebol mundial.
+            </p>
+
+            <a href="#historia" class="botao">
+                Conheça sua história ↓
+            </a>
+        </div>
+    </div>
+
+    <section id="historia" class="historia">
+        <h2 class="titulo">A história de Neymar</h2>
+
+        <p>
+            Neymar da Silva Santos Júnior nasceu em 5 de fevereiro de 1992,
+            em Mogi das Cruzes, São Paulo. Desde criança, demonstrava grande
+            habilidade com a bola e desenvolveu seu talento jogando futebol
+            nas categorias de base.
+        </p>
+
+        <p>
+            Ainda jovem, chamou a atenção pela velocidade, pelos dribles
+            criativos e pela capacidade de decidir partidas. Sua trajetória
+            ganhou destaque nacional quando chegou ao time profissional
+            do Santos Futebol Clube, em 2009.
+        </p>
+
+        <p>
+            Com personalidade e um estilo de jogo ousado, Neymar rapidamente
+            se tornou um dos jogadores mais comentados do país. Suas atuações
+            ajudaram o Santos a conquistar títulos importantes e a revelar
+            ao mundo uma nova estrela brasileira.
+        </p>
+    </section>
+
+    <section id="santos">
+        <h2 class="titulo">A trajetória no Santos FC</h2>
+
+        <p>
+            No Santos, Neymar viveu uma das fases mais marcantes de sua
+            carreira. Ao lado de grandes companheiros, participou de uma
+            equipe que voltou a ganhar destaque no cenário nacional e
+            internacional.
+        </p>
+
+        <p>
+            Em 2010, ajudou o Peixe a conquistar a Copa do Brasil.
+            Em 2011, foi uma das principais figuras da campanha vitoriosa
+            na Copa Libertadores da América, título que o clube não
+            conquistava desde a época de Pelé, em 1963.
+        </p>
+
+        <p>
+            Seus dribles, gols e jogadas de efeito lotavam os estádios e
+            conquistavam torcedores. Neymar tornou-se um símbolo de uma
+            geração especial do Santos, que também venceu o Campeonato
+            Paulista em 2010, 2011 e 2012.
+        </p>
+
+        <p>
+            Depois de seguir carreira no futebol europeu e atuar em outros
+            grandes clubes, Neymar voltou ao Santos em 2025, reencontrando
+            o clube onde se tornou um dos maiores nomes do futebol brasileiro.
+        </p>
+    </section>
+
+    <section id="titulos" class="historia">
+        <h2 class="titulo">Conquistas marcantes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🏆 Copa do Brasil</h3>
+                <p>
+                    Em 2010, Neymar participou da campanha que levou o
+                    Santos ao título nacional, em uma equipe conhecida
+                    pelo futebol ofensivo.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🏆 Libertadores</h3>
+                <p>
+                    Em 2011, foi um dos protagonistas da conquista da
+                    Libertadores, um dos momentos mais importantes da
+                    história recente do Peixe.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🏆 Campeonato Paulista</h3>
+                <p>
+                    Neymar conquistou os estaduais de 2010, 2011 e 2012
+                    pelo Santos, participando de uma geração que marcou
+                    época no futebol brasileiro.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌎 Carreira internacional</h3>
+                <p>
+                    Depois do Santos, construiu uma carreira de destaque
+                    no Barcelona, no Paris Saint-Germain e no futebol
+                    saudita, além de representar a Seleção Brasileira.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="destaque">
+        <h2 class="titulo">O legado de Neymar</h2>
+
+        <p>
+            Neymar deixou sua marca na história do Santos com seu futebol
+            criativo e suas conquistas. Sua passagem ajudou a aproximar
+            uma nova geração de torcedores do clube e reforçou a tradição
+            santista de revelar grandes talentos.
+        </p>
+
+        <p>
+            Assim como outros craques que vestiram a camisa alvinegra,
+            seu nome permanece ligado a momentos inesquecíveis para
+            a torcida do Peixe.
+        </p>
+
+        <a href="index.html" class="voltar">
+            ← Voltar para o Santos Remix
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>Santos Remix — A história e a paixão pelo Peixe.</p>
+</footer>
+
+</body>
+</html>

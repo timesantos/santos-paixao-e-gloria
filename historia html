@@ -1,0 +1,76 @@
+<html>
+<head>
+<title> historia </title>
+<link rel="stylesheet" type="text/css" href="externo.css">
+<style>
+
+body
+{
+background-image:url("imagens site/imagdfsfes.jpeg");
+
+background-color:black;
+text-align:center;
+
+}
+
+
+.boxed
+{
+color:white;
+display:inline-block;
+border:2px solid purple;
+max-width:800px;
+padding:15px 30px;
+border-radius:0%;
+margin:1px auto;
+background-color:white;
+line-height:1.5;
+
+}
+
+
+.figura
+{
+width:250px;
+height:150px;
+border-radius:100%;
+opacity:100;
+}
+
+.figura1
+{
+transform:scaleX(-1);
+}
+
+
+p
+{
+font-size:20px;
+font-weight:bold;
+text-align:justify;
+color:black;
+}
+
+
+	
+</style>
+
+
+
+	
+<h2>  </h2>
+<div class="boxed">
+<h1> <center> <font color="black"> Títulos </font> </center></h1>
+<center> <img src="imagens site/images23-removebg-preview.png" width="20%" heigth="20%"></center>
+	
+	
+	<p> 
+1. A Fundada e os Primeiros Anos (1912–1955)A Reunião de FundaçãoNa tarde de 14 de abril de 1912, no Club Concordia, três esportistas da cidade — Raimundo Marques, Mário Ferraz de Campos e Argemiro de Souza Júnior — convocaram uma reunião para criar um clube focado no futebol, esporte que crescia rapidamente no Brasil. Inicialmente, as cores do uniforme seriam azul, branco e dourado, mas devido à dificuldade de encontrar tecidos nessas cores na época, em 1913 foi adotado o tradicional alvinegro (camisa branca e calção preto/branco).A Formação da IdentidadeNos anos 1920 e 1930, o Santos começou a formar sua fama de time altamente ofensivo. Em 1927, o ataque apelidado de "Ataque dos 100 Gols" (formado por Omar, Camarão, Feitiço, Araken Patusca e Evangelista) marcou 100 gols em apenas 16 jogos no Campeonato Paulista — uma média superior a 6 gols por partida. O primeiro título paulista veio em 1935, consolidando o clube no cenário estadual.<br> <br> 2. A Era Pelé e a Supremacia Mundial (1956–1974)A Chegada do Rei e o "Santuário" da Vila BelmiroEm 1956, o ex-jogador Waldemar de Brito trouxe à Vila Belmiro um jovem garoto de 15 anos do Bauru Atlético Clube: Edson Arantes do Nascimento, o Pelé. Em seu jogo de estreia, contra o Corinthians de Santo André, Pelé marcou o primeiro de seus 1.091 gols com a camisa santista.Ao longo dos anos 1960, o técnico Lula montou um dos esquadrões mais temidos da história do futebol mundial, escalado na memória dos torcedores:$$\text{Gilmar; Lima, Mauro, Dalmo e Zito; Calvet e Dorval; Coutinho, Pelé, Mengálvio e Pepe.}$$As Conquistas InesquecíveisBicampeonato da Libertadores e Intercontinental (1962 e 1963):1962: O Santos venceu o Peñarol na final da Libertadores e encarou o poderoso Benfica de Eusébio no Mundial. Após vencer na Vila Belmiro por 3 a 2, o Peixe deu um show no Estádio da Luz, em Lisboa, aplicando um histórico 5 a 2.1963: Venceu o Boca Juniors na mitológica La Bombonera pela Libertadores e superou o Milan na decisão do Mundial, no Maracanã, em um terceiro jogo emocionante selado pelo pênalti cobrado pelo lateral Dalmo.O Parador de Guerras (1969):Durante uma excursão pela África no início de 1969, o Santos jogou uma partida amistosa em Benin City. A presença de Pelé e do time santista fez com que as forças armadas envolvidas na Guerra Civil da Nigéria (Guerra de Biafra) decretassem um cessar-fogo temporário para que a população pudesse assistir ao espetáculo.O Gol Mil (1969):No dia 19 de novembro de 1969, no Estádio do Maracanã, contra o Vasco da Gama, Pelé cobrou um pênalti contra o goleiro Andrada, atingindo a marca histórica do seu 1.000º gol na carreira.<br> <br> 3. A Tradição dos "Meninos da Vila"A capacidade de formar talentos nas categorias de base tornou-se a assinatura do clube. Em momentos de crise financeira ou de transição, a base santista sempre respondeu no campo:
+
+<h1> <center> <font color="black"> FONTE:https://www.santosfc.com.br/titulos/ </font></center></h1>
+
+</p>
+
+</div>
+</head>
+</html>

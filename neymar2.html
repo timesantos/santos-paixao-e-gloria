@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Neymar e o Santos | Santos Remix</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+/* CABEÇALHO */
+header {
+    background: #000;
+    border-bottom: 1px solid #333;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #aaa;
+}
+
+header a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+/* DESTAQUE PRINCIPAL */
+.hero {
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    padding: 70px 9%;
+    background:
+        linear-gradient(90deg, #000 0%, rgba(0,0,0,.85) 45%,
+        rgba(0,0,0,.25) 100%),
+        url("55598859880-e92062c736-k.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 720px;
+}
+
+.etiqueta {
+    display: inline-block;
+    border: 1px solid #aaa;
+    padding: 5px 13px;
+    border-radius: 3px;
+    color: #ddd;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 6vw, 68px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #bbb;
+}
+
+.subtitulo {
+    font-size: clamp(20px, 3vw, 27px);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 17px;
+    color: #ddd;
+    max-width: 620px;
+    margin-bottom: 25px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.botao:hover {
+    background: #bbb;
+    transform: translateY(-3px);
+}
+
+/* CONTEÚDO */
+.container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 60px 25px;
+}
+
+.titulo {
+    font-size: 30px;
+    border-left: 5px solid #fff;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.artigo p {
+    color: #ccc;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* CARTÕES */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 25px;
+    background: #141414;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #888;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #bbb;
+    font-size: 15px;
+}
+
+/* BLOCO DE DESTAQUE */
+.bloco-destaque {
+    background: #141414;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.bloco-destaque .container {
+    text-align: center;
+}
+
+.bloco-destaque p {
+    max-width: 800px;
+    margin: 0 auto 18px;
+    color: #ccc;
+    font-size: 17px;
+}
+
+/* RODAPÉ */
+footer {
+    background: #000;
+    text-align: center;
+    padding: 30px 20px;
+    color: #999;
+    border-top: 1px solid #333;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 11px 20px;
+    color: #fff;
+    border: 1px solid #777;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.voltar:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 55px 7%;
+        background-position: 60% center;
+    }
+
+    .container {
+        padding: 45px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="logo">
+        SANTOS <span>REMIX</span>
+    </a>
+
+    <a href="index.html">← Página inicial</a>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-content">
+
+            <span class="etiqueta">NEYMAR E O SANTOS</span>
+
+            <h1>Neymar <span>em destaque</span></h1>
+
+            <div class="subtitulo">
+                Neymar anima Santos e mira temporada com mais jogos
+            </div>
+
+            <p>
+                O craque santista busca ter mais continuidade em campo
+                e contribuir com sua experiência, criatividade e talento
+                para os objetivos do Peixe.
+            </p>
+
+            <a href="#noticia" class="botao">
+                Ler matéria completa ↓
+            </a>
+
+        </div>
+    </section>
+
+    <article id="noticia" class="container artigo">
+
+        <h2 class="titulo">Neymar e o Santos</h2>
+
+        <p>
+            A relação entre Neymar e o Santos é marcada por grandes
+            momentos, conquistas e pela identificação do jogador com
+            o clube que o revelou para o futebol mundial. Sua presença
+            desperta a atenção dos torcedores e aumenta a expectativa
+            para os desafios da equipe.
+        </p>
+
+        <p>
+            Com sua habilidade nos dribles, visão de jogo e capacidade
+            de criar oportunidades, Neymar pode representar uma peça
+            importante para o setor ofensivo santista. A experiência
+            acumulada ao longo de sua carreira também pode contribuir
+            para o desenvolvimento dos jogadores mais jovens.
+        </p>
+
+        <h2 class="titulo">A expectativa por mais jogos</h2>
+
+        <p>
+            A possibilidade de disputar uma temporada com maior
+            continuidade é um dos assuntos que cercam o jogador.
+            Para Neymar, manter uma sequência de partidas pode ajudar
+            a recuperar ritmo competitivo e ampliar sua participação
+            nos compromissos da equipe.
+        </p>
+
+        <p>
+            A preparação, o acompanhamento físico e o planejamento
+            de cada etapa da temporada são fatores importantes para
+            que o atleta possa buscar essa regularidade. A participação
+            efetiva nos jogos depende das condições do jogador e da
+            avaliação da comissão técnica.
+        </p>
+
+        <h2 class="titulo">O que Neymar representa para o Peixe?</h2>
+
+        <p>
+            Para a torcida santista, Neymar representa uma ligação
+            especial entre a história do clube e uma geração que
+            acompanhou seus dribles, gols e conquistas. Seu retorno
+            também reforça o interesse pelo Santos e cria expectativa
+            sobre o que a equipe poderá alcançar.
+        </p>
+
+    </article>
+
+    <section class="bloco-destaque">
+        <div class="container">
+
+            <h2 class="titulo">Os pontos de atenção da temporada</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>⚽ Regularidade</h3>
+                    <p>
+                        Buscar uma sequência maior de partidas e
+                        contribuir durante a temporada.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>⭐ Criatividade</h3>
+                    <p>
+                        Usar a habilidade e a visão de jogo para
+                        criar oportunidades ofensivas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>⚫⚪ Liderança</h3>
+                    <p>
+                        Compartilhar experiência com os companheiros
+                        e ajudar o grupo a enfrentar seus desafios.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container artigo">
+        <h2 class="titulo">A torcida está de olho</h2>
+
+        <p>
+            A expectativa dos santistas é ver Neymar em campo,
+            contribuindo para uma equipe competitiva e protagonizando
+            novos momentos com a camisa alvinegra. Uma temporada
+            consistente pode ser importante tanto para o jogador
+            quanto para os objetivos do Santos.
+        </p>
+
+        <p>
+            A caminhada continua, e a torcida espera acompanhar
+            novos capítulos dessa história entre Neymar e o Peixe.
+        </p>
+
+        <a href="index.html" class="voltar">
+            ← Voltar para o Santos Remix
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>SANTOS REMIX © 2026 — A paixão pelo Peixe.</p>
+</footer>
+
+</body>
+</html>
